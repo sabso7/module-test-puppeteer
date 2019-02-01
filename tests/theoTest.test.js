@@ -7,7 +7,7 @@ describe("Shorten Anonymous", () => {
     let data = Math.floor(Date.now()).toString();
 
     // vérification du chargement de la page d'accueil
-    test('test theo', async () => {
+    test('test theo tt', async () => {
         await page.goto('http://polr.alwaysdata.net');
         await page.waitForSelector('.long-link-input');
         await page.type('.long-link-input', 'https://jestjs.io/docs/en/getting-started');
